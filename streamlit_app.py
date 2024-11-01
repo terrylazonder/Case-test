@@ -40,7 +40,8 @@ Het dashboard is ontworpen om overheden, gezondheidsautoriteiten en burgers te h
 """)
 
 # ======================================================================================================================================== #
-covid_df_EU = pd.read_csv("Case2vb.csv")
+df=pd.read_csv("Case2vb.csv")
+covid_df_EU = pd.DataFrame(df)
 
 # Zoekt naar missende data
 missing_data = covid_df_EU.isnull().sum()
