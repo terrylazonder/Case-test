@@ -167,18 +167,7 @@ covid_df_EU_increase_pct = covid_df_EU_increase_pct.reindex(
 # Titel voor het dashboard
 st.header('COVID-19 Toename Percentage Dashboard')
 # Dropdown voor het selecteren van een land
-selected_country_checkbox = st.selectbox('Selecteer een land', covid_df_EU_increase_pct['country_name'].unique())
-# Filteren van de dataset op basis van het geselecteerde land
-filtered_df = covid_df_EU_increase_pct[covid_df_EU_increase_pct['country_name'] == selected_country_checkbox]
-# Dropdown voor het selecteren van een provincie binnen het geselecteerde land
-selected_province_checkbox = st.selectbox('Selecteer een provincie', filtered_df['province'].unique())
-# Filteren van de dataset op basis van de geselecteerde provincie
-province_data_checkbox = filtered_df[filtered_df['province'] == selected_province_checkbox]
-# Controle of er data beschikbaar is voor de geselecteerde provincie
-if not province_data_checkbox.empty:
-    # Dutch translations for the x-axis labels
-    labels = ['Actieve Toename (%)', 'Gediagnosticeerde Toename (%)', 'Sterfgevallen Toename (%)']
-    values = province_data_checkbox[['active_increase_%', 'confirmed_increase_%', 'deaths_increase_%']].values[0]
+
 # Aanmaken van een staafdiagram met plotly
 selected_countries = st.multiselect('Selecteer landen om te vergelijken', covid_df_EU_increase_pct['country_name'].unique())
 fig = go.Figure()
