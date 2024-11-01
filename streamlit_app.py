@@ -180,31 +180,32 @@ if not province_data_checkbox.empty:
     labels = ['Actieve Toename (%)', 'Gediagnosticeerde Toename (%)', 'Sterfgevallen Toename (%)']
     values = province_data_checkbox[['active_increase_%', 'confirmed_increase_%', 'deaths_increase_%']].values[0]
 # Aanmaken van een staafdiagram met plotly
-    fig_check = go.Figure()
-# Toevoegen van data aan de staafdiagram
-    fig_check.add_trace(go.Bar(
-        x=labels, 
+fig = go.Figure()
+
+for country in selected_countries:
+    country_data = covid_df_EU_increase_pct[covid_df_EU_increase_pct['country_name'] == country]
+    values = country_data[['active_increase_%', 'confirmed_increase_%', 'deaths_increase_%']].mean()
+    labels = ['Actieve Toename (%)', 'Gediagnosticeerde Toename (%)', 'Sterfgevallen Toename (%)']
+
+    fig.add_trace(go.Bar(
+        x=labels,
         y=values,
-        marker_color=['blue', 'orange', 'red']
+        name=country,
     ))
-# Layout van de grafiek instellen
-    fig_check.update_layout(
-        title=f'Toename in Percentage voor {selected_province_checkbox}',
-        xaxis_title='Meting',
-        yaxis_title='Percentage',
-        template='plotly_white',
-        showlegend=False
-    )
- #Display naam instellen op basis van de geselecteerde land of provincie
-    if selected_province_checkbox == "":
-        display_name = selected_country_checkbox
-    else:
-        display_name = selected_province_checkbox
-# Controle of alle waardes nul zijn (geen toename in data)
-    if np.all(values == 0):
-        st.write(f'Geen toename van covid-19 percentages bekend in {display_name} tussen de dagen 08-03-2023 en 09-03-2023')
-    else:
-        st.plotly_chart(fig_check)
+
+# Layout and styling of the plot
+fig.update_layout(
+    title="Vergelijking van Toename in Percentage voor Geselecteerde Landen",
+    xaxis_title="Meting",
+    yaxis_title="Percentage",
+    barmode='group'
+)
+
+# Display the plot in Streamlit
+if selected_countries:
+    st.plotly_chart(fig)
+else:
+    st.write("Selecteer ten minste één land om een vergelijking te maken.")
 
 # ================================================================================================================================== #
 # Titel en text voor de tweede sectie van de analyse doormiddel van streamlit
