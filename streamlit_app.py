@@ -11,29 +11,6 @@ import numpy as np
 import time
 
 start_time = time.perf_counter()
-# API URL for COVID-19 statistics
-url = "https://covid-19-statistics.p.rapidapi.com/reports"
-# Headers for the API request with API key
-headers = {
-    'x-rapidapi-host': "covid-19-statistics.p.rapidapi.com",
-    'x-rapidapi-key': "89dc140db7mshf142d6f86d6ce14p1c3e02jsn2c6a8f31519e"
-}
-# List of European country codes for the API request
-country_code_EU = ['BEL', 'DNK', 'BGR', 'CYP', 'DEU', 'EST', 'FIN', 'FRA', 'GRC', 'HUN', 'IRL', 'ITA', 'HRV', 'LVA', 'LTU', 
-                   'LUX', 'MLT', 'NLD', 'AUT', 'POL', 'PRT', 'ROU', 'SVN', 'SVK', 'ESP', 'CZE', 'SWE']
-querystring_EU = {'iso': country_code_EU}
-
-headers = {
-    'x-rapidapi-host': "covid-19-statistics.p.rapidapi.com",
-    'x-rapidapi-key': "89dc140db7mshf142d6f86d6ce14p1c3e02jsn2c6a8f31519e"
-}
-# Dictionary voor de volledige naam van de map country 
-country_names = {
-    'BEL': 'België','DNK': 'Denemarken','BGR': 'Bulgarije','CYP': 'Cyprus','DEU': 'Duitsland','EST': 'Estland','FIN': 'Finland',
-    'FRA': 'Frankrijk','GRC': 'Griekenland','HUN': 'Hongarije','IRL': 'Ierland','ITA': 'Italië','HRV': 'Kroatië','LVA': 'Letland',
-    'LTU': 'Litouwen','LUX': 'Luxemburg','MLT': 'Malta','NLD': 'Nederland','AUT': 'Oostenrijk','POL': 'Polen','PRT': 'Portugal',
-    'ROU': 'Roemenië','SVN': 'Slovenië','SVK': 'Slovakije','ESP': 'Spanje','CZE': 'Tsjechië','SWE': 'Zweden'
-}
 
 # ======================================================================================================================================== #
 # Title and introduction sectie voor de Streamlit app
@@ -63,22 +40,7 @@ Het dashboard is ontworpen om overheden, gezondheidsautoriteiten en burgers te h
 """)
 
 # ======================================================================================================================================== #
-# Verzamelen van COVID-19 data voor elk EU country terwijl we gebruik maken van de API
-EU_data = []
-for country_code in country_code_EU:
-    querystring_EU = {'iso':country_code}
-    response_EU = requests.get(url, headers=headers, params=querystring_EU)
-    data_EU = response_EU.json()
-#Checken of de data beschikbaar is om samentevoegen met de EU_data list
-    if 'data' in data_EU:
-        for report in data_EU['data']:
-            report['country'] = country_code
-            report['country_name'] = country_names[country_code]
-            EU_data.append(report)
-
-#Makan van een dataframe voor verzamelen van data 
-covid_df_EU = pd.DataFrame(EU_data)
-covid_df_EU.set_index('country', inplace = True)
+covid_df_EU = pd.read_csv("Case2vb.csv")
 
 # Zoekt naar missende data
 missing_data = covid_df_EU.isnull().sum()
