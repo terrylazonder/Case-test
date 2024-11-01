@@ -180,6 +180,7 @@ if not province_data_checkbox.empty:
     labels = ['Actieve Toename (%)', 'Gediagnosticeerde Toename (%)', 'Sterfgevallen Toename (%)']
     values = province_data_checkbox[['active_increase_%', 'confirmed_increase_%', 'deaths_increase_%']].values[0]
 # Aanmaken van een staafdiagram met plotly
+selected_countries = st.multiselect('Selecteer landen om te vergelijken', covid_df_EU_increase_pct['country_name'].unique())
 fig = go.Figure()
 
 for country in selected_countries:
