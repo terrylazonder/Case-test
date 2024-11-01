@@ -1,3 +1,6 @@
+import time
+start_time = time.perf_counter()
+
 import streamlit as st 
 import requests 
 import pandas as pd 
@@ -8,9 +11,8 @@ import plotly.graph_objects as go
 import plotly.express as px
 import numpy 
 import numpy as np
-import time
+
 import json
-start_time = time.perf_counter()
 
 # ======================================================================================================================================== #
 # Title and introduction sectie voor de Streamlit app
