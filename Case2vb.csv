@@ -1,0 +1,143 @@
+country,date,confirmed,deaths,recovered,confirmed_diff,deaths_diff,recovered_diff,last_update,active,active_diff,fatality_rate,region,country_name
+BEL,2023-03-09,766206,0,0,1935,0,0,2023-03-10 04:21:03,766206,1935,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Antwerp', 'lat': '51.2195', 'long': '4.4024', 'cities': []}",België
+BEL,2023-03-09,505467,0,0,544,0,0,2023-03-10 04:21:03,505467,544,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Brussels', 'lat': '50.8503', 'long': '4.3517', 'cities': []}",België
+BEL,2023-03-09,645338,0,0,2250,0,0,2023-03-10 04:21:03,645338,2250,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'East Flanders', 'lat': '51.0362', 'long': '3.7373', 'cities': []}",België
+BEL,2023-03-09,464722,0,0,1252,0,0,2023-03-10 04:21:03,464722,1252,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Flemish Brabant', 'lat': '50.9167', 'long': '4.5833', 'cities': []}",België
+BEL,2023-03-09,519111,0,0,864,0,0,2023-03-10 04:21:03,519111,864,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Hainaut', 'lat': '50.5257', 'long': '4.0621', 'cities': []}",België
+BEL,2023-03-09,419029,0,0,685,0,0,2023-03-10 04:21:03,419029,685,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Liege', 'lat': '50.4496', 'long': '5.8492', 'cities': []}",België
+BEL,2023-03-09,351474,0,0,1087,0,0,2023-03-10 04:21:03,351474,1087,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Limburg', 'lat': '50.9739', 'long': '5.3420000000000005', 'cities': []}",België
+BEL,2023-03-09,122942,0,0,185,0,0,2023-03-10 04:21:03,122942,185,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Luxembourg', 'lat': '50.0547', 'long': '5.4677', 'cities': []}",België
+BEL,2023-03-09,202905,0,0,387,0,0,2023-03-10 04:21:03,202905,387,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Namur', 'lat': '50.331', 'long': '4.8221', 'cities': []}",België
+BEL,2023-03-09,63364,33814,0,90,39,0,2023-03-10 04:21:03,29550,51,0.5336,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Unknown', 'lat': None, 'long': None, 'cities': []}",België
+BEL,2023-03-09,173827,0,0,242,0,0,2023-03-10 04:21:03,173827,242,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'Walloon Brabant', 'lat': '50.4', 'long': '4.35', 'cities': []}",België
+BEL,2023-03-09,504980,0,0,2049,0,0,2023-03-10 04:21:03,504980,2049,0.0,"{'iso': 'BEL', 'name': 'Belgium', 'province': 'West Flanders', 'lat': '51.0536', 'long': '3.1458', 'cities': []}",België
+DNK,2023-03-09,3404407,8296,0,139,4,0,2023-03-10 04:21:03,3396111,135,0.0024,"{'iso': 'DNK', 'name': 'Denmark', 'province': '', 'lat': '56.2639', 'long': '9.5018', 'cities': []}",Denemarken
+DNK,2023-03-09,34658,28,0,0,0,0,2023-03-10 04:21:03,34630,0,0.0008,"{'iso': 'DNK', 'name': 'Denmark', 'province': 'Faroe Islands', 'lat': '61.8926', 'long': '-6.9118', 'cities': []}",Denemarken
+DNK,2023-03-09,11971,21,0,0,0,0,2023-03-10 04:21:03,11950,0,0.0018,"{'iso': 'DNK', 'name': 'Denmark', 'province': 'Greenland', 'lat': '71.7069', 'long': '-42.6043', 'cities': []}",Denemarken
+BGR,2023-03-09,1297523,38228,0,72,3,0,2023-03-10 04:21:03,1259295,69,0.0295,"{'iso': 'BGR', 'name': 'Bulgaria', 'province': '', 'lat': '42.7339', 'long': '25.4858', 'cities': []}",Bulgarije
+CYP,2023-03-09,650685,1330,0,0,0,0,2023-03-10 04:21:03,649355,0,0.002,"{'iso': 'CYP', 'name': 'Cyprus', 'province': '', 'lat': '35.1264', 'long': '33.4299', 'cities': []}",Cyprus
+DEU,2023-03-09,5063979,19297,0,771,14,0,2023-03-10 04:21:03,5044682,757,0.0038,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Baden-Wurttemberg', 'lat': '48.6616', 'long': '9.3501', 'cities': []}",Duitsland
+DEU,2023-03-09,6741523,28680,0,1409,27,0,2023-03-10 04:21:03,6712843,1382,0.0043,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Bayern', 'lat': '48.7904', 'long': '11.4979', 'cities': []}",Duitsland
+DEU,2023-03-09,1430661,5564,0,449,2,0,2023-03-10 04:21:03,1425097,447,0.0039,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Berlin', 'lat': '52.52', 'long': '13.405', 'cities': []}",Duitsland
+DEU,2023-03-09,1113946,6506,0,197,4,0,2023-03-10 04:21:03,1107440,193,0.0058,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Brandenburg', 'lat': '52.4125', 'long': '12.5316', 'cities': []}",Duitsland
+DEU,2023-03-09,303612,968,0,37,1,0,2023-03-10 04:21:03,302644,36,0.0032,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Bremen', 'lat': '53.0793', 'long': '8.8017', 'cities': []}",Duitsland
+DEU,2023-03-09,807013,3614,0,0,0,0,2023-03-10 04:21:03,803399,0,0.0045,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Hamburg', 'lat': '53.5511', 'long': '9.9937', 'cities': []}",Duitsland
+DEU,2023-03-09,2928587,12436,0,602,8,0,2023-03-10 04:21:03,2916151,594,0.0042,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Hessen', 'lat': '50.6521', 'long': '9.1624', 'cities': []}",Duitsland
+DEU,2023-03-09,711570,2770,0,205,5,0,2023-03-10 04:21:03,708800,200,0.0039,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Mecklenburg-Vorpommern', 'lat': '53.6127', 'long': '12.4296', 'cities': []}",Duitsland
+DEU,2023-03-09,3860773,13718,0,787,29,0,2023-03-10 04:21:03,3847055,758,0.0036,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Niedersachsen', 'lat': '52.6367', 'long': '9.8451', 'cities': []}",Duitsland
+DEU,2023-03-09,8048396,31400,0,1970,16,0,2023-03-10 04:21:03,8016996,1954,0.0039,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Nordrhein-Westfalen', 'lat': '51.4332', 'long': '7.6616', 'cities': []}",Duitsland
+DEU,2023-03-09,1769913,6971,0,426,9,0,2023-03-10 04:21:03,1762942,417,0.0039,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Rheinland-Pfalz', 'lat': '50.1183', 'long': '7.309', 'cities': []}",Duitsland
+DEU,2023-03-09,492792,2132,0,151,1,0,2023-03-10 04:21:03,490660,150,0.0043,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Saarland', 'lat': '49.3964', 'long': '7.023', 'cities': []}",Duitsland
+DEU,2023-03-09,1955828,16814,0,277,3,0,2023-03-10 04:21:03,1939014,274,0.0086,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Sachsen', 'lat': '51.1045', 'long': '13.2017', 'cities': []}",Duitsland
+DEU,2023-03-09,961147,6286,0,207,3,0,2023-03-10 04:21:03,954861,204,0.0065,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Sachsen-Anhalt', 'lat': '51.9503', 'long': '11.6923', 'cities': []}",Duitsland
+DEU,2023-03-09,1175406,3481,0,175,4,0,2023-03-10 04:21:03,1171925,171,0.003,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Schleswig-Holstein', 'lat': '54.2194', 'long': '9.6961', 'cities': []}",Duitsland
+DEU,2023-03-09,883914,8298,0,166,1,0,2023-03-10 04:21:03,875616,165,0.0094,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Thuringen', 'lat': '51.011', 'long': '10.8453', 'cities': []}",Duitsland
+DEU,2023-03-09,0,0,0,0,0,0,2023-03-10 04:21:03,0,0,0.0,"{'iso': 'DEU', 'name': 'Germany', 'province': 'Unknown', 'lat': None, 'long': None, 'cities': []}",Duitsland
+EST,2023-03-09,615433,2946,0,0,0,0,2023-03-10 04:21:03,612487,0,0.0048,"{'iso': 'EST', 'name': 'Estonia', 'province': '', 'lat': '58.5953', 'long': '25.0136', 'cities': []}",Estland
+FIN,2023-03-09,1463644,8967,0,668,31,0,2023-03-10 04:21:03,1454677,637,0.0061,"{'iso': 'FIN', 'name': 'Finland', 'province': '', 'lat': '61.9241', 'long': '25.7482', 'cities': []}",Finland
+FRA,2023-03-09,38618509,161512,0,6308,11,0,2023-03-10 04:21:03,38456997,6297,0.0042,"{'iso': 'FRA', 'name': 'France', 'province': '', 'lat': '47.0000', 'long': '2.0000', 'cities': []}",Frankrijk
+FRA,2023-03-09,12271,63,0,0,0,0,2023-03-10 04:21:03,12208,0,0.0051,"{'iso': 'FRA', 'name': 'France', 'province': 'St Martin', 'lat': '18.0708', 'long': '-63.0501', 'cities': []}",Frankrijk
+FRA,2023-03-09,5441,6,0,0,0,0,2023-03-10 04:21:03,5435,0,0.0011,"{'iso': 'FRA', 'name': 'France', 'province': 'Saint Barthelemy', 'lat': '17.9000', 'long': '-62.8333', 'cities': []}",Frankrijk
+FRA,2023-03-09,78055,649,0,0,0,0,2023-03-10 04:21:03,77406,0,0.0083,"{'iso': 'FRA', 'name': 'France', 'province': 'French Polynesia', 'lat': '-17.6797', 'long': '-149.4068', 'cities': []}",Frankrijk
+FRA,2023-03-09,98041,413,0,0,0,0,2023-03-10 04:21:03,97628,0,0.0042,"{'iso': 'FRA', 'name': 'France', 'province': 'French Guiana', 'lat': '4.0000', 'long': '-53.0000', 'cities': []}",Frankrijk
+FRA,2023-03-09,42004,187,0,0,0,0,2023-03-10 04:21:03,41817,0,0.0045,"{'iso': 'FRA', 'name': 'France', 'province': 'Mayotte', 'lat': '-12.8431', 'long': '45.1383', 'cities': []}",Frankrijk
+FRA,2023-03-09,201886,1010,0,0,0,0,2023-03-10 04:21:03,200876,0,0.005,"{'iso': 'FRA', 'name': 'France', 'province': 'Guadeloupe', 'lat': '16.2500', 'long': '-61.5833', 'cities': []}",Frankrijk
+FRA,2023-03-09,494595,921,0,0,0,0,2023-03-10 04:21:03,493674,0,0.0019,"{'iso': 'FRA', 'name': 'France', 'province': 'Reunion', 'lat': '-21.1351', 'long': '55.2471', 'cities': []}",Frankrijk
+FRA,2023-03-09,80017,314,0,0,0,0,2023-03-10 04:21:03,79703,0,0.0039,"{'iso': 'FRA', 'name': 'France', 'province': 'New Caledonia', 'lat': '-20.9043', 'long': '165.6180', 'cities': []}",Frankrijk
+FRA,2023-03-09,229020,1092,0,0,0,0,2023-03-10 04:21:03,227928,0,0.0048,"{'iso': 'FRA', 'name': 'France', 'province': 'Martinique', 'lat': '14.6415', 'long': '-61.0242', 'cities': []}",Frankrijk
+FRA,2023-03-09,3452,2,0,0,0,0,2023-03-10 04:21:03,3450,0,0.0006,"{'iso': 'FRA', 'name': 'France', 'province': 'Saint Pierre and Miquelon', 'lat': '46.8852', 'long': '-56.3159', 'cities': []}",Frankrijk
+FRA,2023-03-09,3427,7,0,0,0,0,2023-03-10 04:21:03,3420,0,0.002,"{'iso': 'FRA', 'name': 'France', 'province': 'Wallis and Futuna', 'lat': '-14.2938', 'long': '-178.1165', 'cities': []}",Frankrijk
+GRC,2023-03-09,5548487,34779,0,0,0,0,2023-03-10 04:21:03,5513708,0,0.0063,"{'iso': 'GRC', 'name': 'Greece', 'province': '', 'lat': '39.0742', 'long': '21.8243', 'cities': []}",Griekenland
+HUN,2023-03-09,2196804,48762,0,0,0,0,2023-03-10 04:21:03,2148042,0,0.0222,"{'iso': 'HUN', 'name': 'Hungary', 'province': '', 'lat': '47.1625', 'long': '19.5033', 'cities': []}",Hongarije
+IRL,2023-03-09,1704502,8708,0,0,0,0,2023-03-10 04:21:03,1695794,0,0.0051,"{'iso': 'IRL', 'name': 'Ireland', 'province': '', 'lat': '53.1424', 'long': '-7.6921', 'cities': []}",Ierland
+ITA,2023-03-09,651674,3931,0,0,0,0,2023-03-10 04:21:03,647743,0,0.006,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Abruzzo', 'lat': '42.35122196', 'long': '13.39843823', 'cities': []}",Italië
+ITA,2023-03-09,199646,1021,0,0,0,0,2023-03-10 04:21:03,198625,0,0.0051,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Basilicata', 'lat': '40.63947052', 'long': '15.80514834', 'cities': []}",Italië
+ITA,2023-03-09,631613,3347,0,0,0,0,2023-03-10 04:21:03,628266,0,0.0053,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Calabria', 'lat': '38.90597598', 'long': '16.59440194', 'cities': []}",Italië
+ITA,2023-03-09,2444797,11791,0,0,0,0,2023-03-10 04:21:03,2433006,0,0.0048,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Campania', 'lat': '40.83956555', 'long': '14.25084984', 'cities': []}",Italië
+ITA,2023-03-09,2136671,19283,0,0,0,0,2023-03-10 04:21:03,2117388,0,0.009,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Emilia-Romagna', 'lat': '44.49436681', 'long': '11.341720800000001', 'cities': []}",Italië
+ITA,2023-03-09,575033,5998,0,0,0,0,2023-03-10 04:21:03,569035,0,0.0104,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Friuli Venezia Giulia', 'lat': '45.6494354', 'long': '13.76813649', 'cities': []}",Italië
+ITA,2023-03-09,2385069,12787,0,0,0,0,2023-03-10 04:21:03,2372282,0,0.0054,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Lazio', 'lat': '41.89277044', 'long': '12.48366722', 'cities': []}",Italië
+ITA,2023-03-09,661284,5880,0,0,0,0,2023-03-10 04:21:03,655404,0,0.0089,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Liguria', 'lat': '44.41149315', 'long': '8.9326992', 'cities': []}",Italië
+ITA,2023-03-09,4118413,45558,0,0,0,0,2023-03-10 04:21:03,4072855,0,0.0111,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Lombardia', 'lat': '45.46679409', 'long': '9.190347404', 'cities': []}",Italië
+ITA,2023-03-09,714100,4399,0,0,0,0,2023-03-10 04:21:03,709701,0,0.0062,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Marche', 'lat': '43.61675973', 'long': '13.5188753', 'cities': []}",Italië
+ITA,2023-03-09,101826,719,0,0,0,0,2023-03-10 04:21:03,101107,0,0.0071,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Molise', 'lat': '41.55774754', 'long': '14.65916051', 'cities': []}",Italië
+ITA,2023-03-09,293808,1610,0,0,0,0,2023-03-10 04:21:03,292198,0,0.0055,"{'iso': 'ITA', 'name': 'Italy', 'province': 'P.A. Bolzano', 'lat': '46.49933453', 'long': '11.35662422', 'cities': []}",Italië
+ITA,2023-03-09,243951,1647,0,0,0,0,2023-03-10 04:21:03,242304,0,0.0068,"{'iso': 'ITA', 'name': 'Italy', 'province': 'P.A. Trento', 'lat': '46.06893511', 'long': '11.12123097', 'cities': []}",Italië
+ITA,2023-03-09,1719738,13828,0,0,0,0,2023-03-10 04:21:03,1705910,0,0.008,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Piemonte', 'lat': '45.0732745', 'long': '7.680687483', 'cities': []}",Italië
+ITA,2023-03-09,1626850,9646,0,0,0,0,2023-03-10 04:21:03,1617204,0,0.0059,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Puglia', 'lat': '41.12559576', 'long': '16.86736689', 'cities': []}",Italië
+ITA,2023-03-09,509829,2923,0,0,0,0,2023-03-10 04:21:03,506906,0,0.0057,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Sardegna', 'lat': '39.21531192', 'long': '9.110616306', 'cities': []}",Italië
+ITA,2023-03-09,1817733,12692,0,0,0,0,2023-03-10 04:21:03,1805041,0,0.007,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Sicilia', 'lat': '38.11569725', 'long': '13.362356699999998', 'cities': []}",Italië
+ITA,2023-03-09,1589964,11574,0,0,0,0,2023-03-10 04:21:03,1578390,0,0.0073,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Toscana', 'lat': '43.76923077', 'long': '11.25588885', 'cities': []}",Italië
+ITA,2023-03-09,438301,2449,0,0,0,0,2023-03-10 04:21:03,435852,0,0.0056,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Umbria', 'lat': '43.10675841', 'long': '12.38824698', 'cities': []}",Italië
+ITA,2023-03-09,50448,567,0,0,0,0,2023-03-10 04:21:03,49881,0,0.0112,"{'iso': 'ITA', 'name': 'Italy', 'province': ""Valle d'Aosta"", 'lat': '45.73750286', 'long': '7.320149366', 'cities': []}",Italië
+ITA,2023-03-09,2692762,16672,0,0,0,0,2023-03-10 04:21:03,2676090,0,0.0062,"{'iso': 'ITA', 'name': 'Italy', 'province': 'Veneto', 'lat': '45.43490485', 'long': '12.33845213', 'cities': []}",Italië
+HRV,2023-03-09,1269326,17987,0,0,0,0,2023-03-10 04:21:03,1251339,0,0.0142,"{'iso': 'HRV', 'name': 'Croatia', 'province': '', 'lat': '45.1000', 'long': '15.2000', 'cities': []}",Kroatië
+LVA,2023-03-09,976255,6269,0,27,0,0,2023-03-10 04:21:03,969986,27,0.0064,"{'iso': 'LVA', 'name': 'Latvia', 'province': '', 'lat': '56.8796', 'long': '24.6032', 'cities': []}",Letland
+LTU,2023-03-09,1307448,9596,0,0,0,0,2023-03-10 04:21:03,1297852,0,0.0073,"{'iso': 'LTU', 'name': 'Lithuania', 'province': '', 'lat': '55.1694', 'long': '23.8813', 'cities': []}",Litouwen
+LUX,2023-03-09,317367,1220,0,0,0,0,2023-03-10 04:21:03,316147,0,0.0038,"{'iso': 'LUX', 'name': 'Luxembourg', 'province': '', 'lat': '49.8153', 'long': '6.1296', 'cities': []}",Luxemburg
+MLT,2023-03-09,117610,828,0,0,0,0,2023-03-10 04:21:03,116782,0,0.007,"{'iso': 'MLT', 'name': 'Malta', 'province': '', 'lat': '35.9375', 'long': '14.3754', 'cities': []}",Malta
+NLD,2023-03-09,45986,301,0,0,0,0,2023-03-10 04:21:03,45685,0,0.0065,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Curacao', 'lat': '12.1696', 'long': '-68.9900', 'cities': []}",Nederland
+NLD,2023-03-09,44044,282,0,0,0,0,2023-03-10 04:21:03,43762,0,0.0064,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Aruba', 'lat': '12.5211', 'long': '-69.9683', 'cities': []}",Nederland
+NLD,2023-03-09,11020,91,0,0,0,0,2023-03-10 04:21:03,10929,0,0.0083,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Sint Maarten', 'lat': '18.0425', 'long': '-63.0548', 'cities': []}",Nederland
+NLD,2023-03-09,11804,41,0,0,0,0,2023-03-10 04:21:03,11763,0,0.0035,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Bonaire, Sint Eustatius and Saba', 'lat': '12.1784', 'long': '-68.2385', 'cities': []}",Nederland
+NLD,2023-03-09,216395,464,0,0,0,0,2023-03-10 04:21:03,215931,0,0.0021,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Drenthe', 'lat': '52.862485', 'long': '6.6184350000000025', 'cities': []}",Nederland
+NLD,2023-03-09,195741,341,0,0,0,0,2023-03-10 04:21:03,195400,0,0.0017,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Flevoland', 'lat': '52.550383', 'long': '5.515162', 'cities': []}",Nederland
+NLD,2023-03-09,292969,624,0,0,0,0,2023-03-10 04:21:03,292345,0,0.0021,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Friesland', 'lat': '53.087337', 'long': '5.7925', 'cities': []}",Nederland
+NLD,2023-03-09,1053625,2952,0,0,0,0,2023-03-10 04:21:03,1050673,0,0.0028,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Gelderland', 'lat': '52.061738', 'long': '5.939114', 'cities': []}",Nederland
+NLD,2023-03-09,263961,368,0,0,0,0,2023-03-10 04:21:03,263593,0,0.0014,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Groningen', 'lat': '53.217921999999994', 'long': '6.741514', 'cities': []}",Nederland
+NLD,2023-03-09,566571,2209,0,0,0,0,2023-03-10 04:21:03,564362,0,0.0039,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Limburg', 'lat': '51.209227', 'long': '5.93387', 'cities': []}",Nederland
+NLD,2023-03-09,1305321,3783,0,0,0,0,2023-03-10 04:21:03,1301538,0,0.0029,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Noord-Brabant', 'lat': '51.561174', 'long': '5.1849419999999995', 'cities': []}",Nederland
+NLD,2023-03-09,1414184,3508,0,0,0,0,2023-03-10 04:21:03,1410676,0,0.0025,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Noord-Holland', 'lat': '52.60090600000001', 'long': '4.9186879999999995', 'cities': []}",Nederland
+NLD,2023-03-09,599261,1459,0,0,0,0,2023-03-10 04:21:03,597802,0,0.0024,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Overijssel', 'lat': '52.444557999999994', 'long': '6.441722', 'cities': []}",Nederland
+NLD,2023-03-09,0,2,0,0,0,0,2023-03-10 04:21:03,-2,0,0.0,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Unknown', 'lat': None, 'long': None, 'cities': []}",Nederland
+NLD,2023-03-09,708169,1581,0,0,0,0,2023-03-10 04:21:03,706588,0,0.0022,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Utrecht', 'lat': '52.084251', 'long': '5.163824', 'cities': []}",Nederland
+NLD,2023-03-09,180656,402,0,0,0,0,2023-03-10 04:21:03,180254,0,0.0022,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Zeeland', 'lat': '51.47936', 'long': '3.8615589999999997', 'cities': []}",Nederland
+NLD,2023-03-09,1803128,5299,0,0,0,0,2023-03-10 04:21:03,1797829,0,0.0029,"{'iso': 'NLD', 'name': 'Netherlands', 'province': 'Zuid-Holland', 'lat': '51.937835', 'long': '4.462114', 'cities': []}",Nederland
+AUT,2023-03-09,5961143,21970,0,5283,21,0,2023-03-10 04:21:03,5939173,5262,0.0037,"{'iso': 'AUT', 'name': 'Austria', 'province': '', 'lat': '47.5162', 'long': '14.5501', 'cities': []}",Oostenrijk
+POL,2023-03-09,6444960,119010,0,3459,21,0,2023-03-10 04:21:03,6325950,3438,0.0185,"{'iso': 'POL', 'name': 'Poland', 'province': '', 'lat': '51.9194', 'long': '19.1451', 'cities': []}",Polen
+PRT,2023-03-09,5570473,26266,0,0,0,0,2023-03-10 04:21:03,5544207,0,0.0047,"{'iso': 'PRT', 'name': 'Portugal', 'province': '', 'lat': '39.3999', 'long': '-8.2245', 'cities': []}",Portugal
+ROU,2023-03-09,3346046,67736,0,0,0,0,2023-03-10 04:21:03,3278310,0,0.0202,"{'iso': 'ROU', 'name': 'Romania', 'province': '', 'lat': '45.9432', 'long': '24.9668', 'cities': []}",Roemenië
+SVN,2023-03-09,1331707,7078,0,511,1,0,2023-03-10 04:21:03,1324629,510,0.0053,"{'iso': 'SVN', 'name': 'Slovenia', 'province': '', 'lat': '46.1512', 'long': '14.9955', 'cities': []}",Slovenië
+SVK,2023-03-09,2667551,21035,0,262,2,0,2023-03-10 04:21:03,2646516,260,0.0079,"{'iso': 'SVK', 'name': 'Slovakia', 'province': '', 'lat': '48.6690', 'long': '19.6990', 'cities': []}",Slovakije
+ESP,2023-03-09,1633494,15575,0,0,0,0,2023-03-10 04:21:03,1617919,0,0.0095,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Andalusia', 'lat': '37.5443', 'long': '-4.7278', 'cities': []}",Spanje
+ESP,2023-03-09,465284,5448,0,0,0,0,2023-03-10 04:21:03,459836,0,0.0117,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Aragon', 'lat': '41.5976', 'long': '-0.9057', 'cities': []}",Spanje
+ESP,2023-03-09,265836,3460,0,0,0,0,2023-03-10 04:21:03,262376,0,0.013,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Asturias', 'lat': '43.3614', 'long': '-5.8593', 'cities': []}",Spanje
+ESP,2023-03-09,315314,1628,0,0,0,0,2023-03-10 04:21:03,313686,0,0.0052,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Baleares', 'lat': '39.710358', 'long': '2.995148', 'cities': []}",Spanje
+ESP,2023-03-09,1587186,10391,0,0,0,0,2023-03-10 04:21:03,1576795,0,0.0065,"{'iso': 'ESP', 'name': 'Spain', 'province': 'C. Valenciana', 'lat': '39.484', 'long': '-0.7533', 'cities': []}",Spanje
+ESP,2023-03-09,465160,2270,0,0,0,0,2023-03-10 04:21:03,462890,0,0.0049,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Canarias', 'lat': '28.2916', 'long': '-16.6291', 'cities': []}",Spanje
+ESP,2023-03-09,162858,989,0,0,0,0,2023-03-10 04:21:03,161869,0,0.0061,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Cantabria', 'lat': '43.1828', 'long': '-3.9878', 'cities': []}",Spanje
+ESP,2023-03-09,611185,8110,0,0,0,0,2023-03-10 04:21:03,603075,0,0.0133,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Castilla - La Mancha', 'lat': '39.2796', 'long': '-3.0977', 'cities': []}",Spanje
+ESP,2023-03-09,848587,9433,0,0,0,0,2023-03-10 04:21:03,839154,0,0.0111,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Castilla y Leon', 'lat': '41.8357', 'long': '-4.3976', 'cities': []}",Spanje
+ESP,2023-03-09,2682569,21125,0,0,0,0,2023-03-10 04:21:03,2661444,0,0.0079,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Catalonia', 'lat': '41.5912', 'long': '1.5209', 'cities': []}",Spanje
+ESP,2023-03-09,24701,194,0,0,0,0,2023-03-10 04:21:03,24507,0,0.0079,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Ceuta', 'lat': '35.8894', 'long': '-5.3213', 'cities': []}",Spanje
+ESP,2023-03-09,310495,2719,0,0,0,0,2023-03-10 04:21:03,307776,0,0.0088,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Extremadura', 'lat': '39.4937', 'long': '-6.0679', 'cities': []}",Spanje
+ESP,2023-03-09,752348,4070,0,0,0,0,2023-03-10 04:21:03,748278,0,0.0054,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Galicia', 'lat': '42.5751', 'long': '-8.1339', 'cities': []}",Spanje
+ESP,2023-03-09,111161,965,0,0,0,0,2023-03-10 04:21:03,110196,0,0.0087,"{'iso': 'ESP', 'name': 'Spain', 'province': 'La Rioja', 'lat': '42.2871', 'long': '2.5396', 'cities': []}",Spanje
+ESP,2023-03-09,1989045,20608,0,0,0,0,2023-03-10 04:21:03,1968437,0,0.0104,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Madrid', 'lat': '40.4168', 'long': '-3.7038', 'cities': []}",Spanje
+ESP,2023-03-09,25460,170,0,0,0,0,2023-03-10 04:21:03,25290,0,0.0067,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Melilla', 'lat': '35.2923', 'long': '-2.9381', 'cities': []}",Spanje
+ESP,2023-03-09,465199,2545,0,0,0,0,2023-03-10 04:21:03,462654,0,0.0055,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Murcia', 'lat': '37.9922', 'long': '-1.1307', 'cities': []}",Spanje
+ESP,2023-03-09,258093,1762,0,0,0,0,2023-03-10 04:21:03,256331,0,0.0068,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Navarra', 'lat': '42.6954', 'long': '-1.6761', 'cities': []}",Spanje
+ESP,2023-03-09,796454,8017,0,0,0,0,2023-03-10 04:21:03,788437,0,0.0101,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Pais Vasco', 'lat': '42.9896', 'long': '-2.6189', 'cities': []}",Spanje
+ESP,2023-03-09,0,0,0,0,0,0,2023-03-10 04:21:03,0,0,0.0,"{'iso': 'ESP', 'name': 'Spain', 'province': 'Unknown', 'lat': None, 'long': None, 'cities': []}",Spanje
+CZE,2023-03-09,4618256,42491,0,1142,3,0,2023-03-10 04:21:03,4575765,1139,0.0092,"{'iso': 'CZE', 'name': 'Czechia', 'province': '', 'lat': '49.8175', 'long': '15.4730', 'cities': []}",Tsjechië
+SWE,2023-03-09,32341,212,0,4,0,0,2023-03-10 04:21:03,32129,4,0.0066,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Blekinge', 'lat': '56.2784', 'long': '15.017999999999999', 'cities': []}",Zweden
+SWE,2023-03-09,81036,663,0,15,0,0,2023-03-10 04:21:03,80373,15,0.0082,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Dalarna', 'lat': '61.0917', 'long': '14.6664', 'cities': []}",Zweden
+SWE,2023-03-09,76018,841,0,11,1,0,2023-03-10 04:21:03,75177,10,0.0111,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Gavleborg', 'lat': '61.3012', 'long': '16.1534', 'cities': []}",Zweden
+SWE,2023-03-09,12356,101,0,3,0,0,2023-03-10 04:21:03,12255,3,0.0082,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Gotland', 'lat': '57.4684', 'long': '18.4867', 'cities': []}",Zweden
+SWE,2023-03-09,113192,651,0,49,0,0,2023-03-10 04:21:03,112541,49,0.0058,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Halland', 'lat': '56.8967', 'long': '12.8034', 'cities': []}",Zweden
+SWE,2023-03-09,35377,225,0,8,0,0,2023-03-10 04:21:03,35152,8,0.0064,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Jamtland Harjedalen', 'lat': '63.1712', 'long': '14.9592', 'cities': []}",Zweden
+SWE,2023-03-09,92621,859,0,55,3,0,2023-03-10 04:21:03,91762,52,0.0093,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Jonkoping', 'lat': '57.3708', 'long': '14.3439', 'cities': []}",Zweden
+SWE,2023-03-09,65694,455,0,16,3,0,2023-03-10 04:21:03,65239,13,0.0069,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Kalmar', 'lat': '57.235', 'long': '16.1849', 'cities': []}",Zweden
+SWE,2023-03-09,54019,445,0,14,0,0,2023-03-10 04:21:03,53574,14,0.0082,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Kronoberg', 'lat': '56.7183', 'long': '14.4115', 'cities': []}",Zweden
+SWE,2023-03-09,52095,557,0,23,3,0,2023-03-10 04:21:03,51538,20,0.0107,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Norrbotten', 'lat': '66.8309', 'long': '20.3992', 'cities': []}",Zweden
+SWE,2023-03-09,104344,628,0,22,3,0,2023-03-10 04:21:03,103716,19,0.006,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Orebro', 'lat': '59.535', 'long': '15.0066', 'cities': []}",Zweden
+SWE,2023-03-09,101906,1031,0,58,4,0,2023-03-10 04:21:03,100875,54,0.0101,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Ostergotland', 'lat': '58.3454', 'long': '15.5198', 'cities': []}",Zweden
+SWE,2023-03-09,357548,2996,0,107,4,0,2023-03-10 04:21:03,354552,103,0.0084,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Skane', 'lat': '55.9903', 'long': '13.5958', 'cities': []}",Zweden
+SWE,2023-03-09,71803,794,0,11,0,0,2023-03-10 04:21:03,71009,11,0.0111,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Sormland', 'lat': '59.0336', 'long': '16.7519', 'cities': []}",Zweden
+SWE,2023-03-09,620000,6239,0,161,9,0,2023-03-10 04:21:03,613761,152,0.0101,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Stockholm', 'lat': '59.6025', 'long': '18.1384', 'cities': []}",Zweden
+SWE,2023-03-09,97754,823,0,47,1,0,2023-03-10 04:21:03,96931,46,0.0084,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Uppsala', 'lat': '60.0092', 'long': '17.2715', 'cities': []}",Zweden
+SWE,2023-03-09,73008,515,0,27,1,0,2023-03-10 04:21:03,72493,26,0.0071,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Varmland', 'lat': '59.7294', 'long': '13.2354', 'cities': []}",Zweden
+SWE,2023-03-09,62564,464,0,33,0,0,2023-03-10 04:21:03,62100,33,0.0074,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Vasterbotten', 'lat': '65.3337', 'long': '16.5162', 'cities': []}",Zweden
+SWE,2023-03-09,58776,791,0,15,0,0,2023-03-10 04:21:03,57985,15,0.0135,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Vasternorrland', 'lat': '63.4276', 'long': '17.7292', 'cities': []}",Zweden
+SWE,2023-03-09,81139,642,0,14,3,0,2023-03-10 04:21:03,80497,11,0.0079,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Vastmanland', 'lat': '59.6714', 'long': '16.2159', 'cities': []}",Zweden
+SWE,2023-03-09,455748,3845,0,111,11,0,2023-03-10 04:21:03,451903,100,0.0084,"{'iso': 'SWE', 'name': 'Sweden', 'province': 'Vastra Gotaland', 'lat': '58.2528', 'long': '13.0596', 'cities': []}",Zweden
