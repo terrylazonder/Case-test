@@ -40,8 +40,27 @@ Het dashboard is ontworpen om overheden, gezondheidsautoriteiten en burgers te h
 """)
 
 # ======================================================================================================================================== #
-df=pd.read_csv("Case2vb.csv")
-covid_df_EU = pd.DataFrame(df)
+# Load the CSV file
+covid_df_EU = pd.read_csv("Case2vb.csv")
+
+# Check if `region` column needs parsing
+def parse_region(region_str):
+    try:
+        # Convert JSON string to dictionary if needed
+        if isinstance(region_str, str):
+            return json.loads(region_str.replace("'", "\""))  # Handle single quotes if present
+        return region_str  # If already a dictionary, return as is
+    except json.JSONDecodeError:
+        return {}  # Return an empty dictionary if parsing fails
+
+# Apply parsing to the `region` column
+covid_df_EU['region'] = covid_df_EU['region'].apply(parse_region)
+
+# Extract `province` from the parsed `region` dictionaries
+covid_df_EU['province'] = covid_df_EU['region'].apply(lambda x: x.get('province', 'Unknown'))
+
+# Filter out rows where province is 'Unknown'
+covid_df_EU = covid_df_EU[covid_df_EU['province'] != 'Unknown']
 
 # Zoekt naar missende data
 missing_data = covid_df_EU.isnull().sum()
