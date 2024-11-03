@@ -83,7 +83,7 @@ covid_df_EU = covid_df_EU[covid_df_EU['province'] != 'Unknown']
 province_data_EU = covid_df_EU.groupby(['province', 'country_name']).agg({'confirmed': 'sum', 'deaths': 'sum', 'fatality_rate': 'mean'}).reset_index()
 province_data_EU = province_data_EU.reindex(columns=['country_name', 'province', 'confirmed', 'deaths', 'fatality_rate'])
 province_data_EU = province_data_EU.sort_values(by='country_name', ascending=True)
-elected_country = st.selectbox('Selecteer een land', covid_df_EU['country_name'].unique())
+selected_country = st.selectbox('Selecteer een land', covid_df_EU['country_name'].unique())
 
 # Filter data for the selected country
 country_data = covid_df_EU[covid_df_EU['country_name'] == selected_country]
