@@ -83,46 +83,85 @@ covid_df_EU = covid_df_EU[covid_df_EU['province'] != 'Unknown']
 province_data_EU = covid_df_EU.groupby(['province', 'country_name']).agg({'confirmed': 'sum', 'deaths': 'sum', 'fatality_rate': 'mean'}).reset_index()
 province_data_EU = province_data_EU.reindex(columns=['country_name', 'province', 'confirmed', 'deaths', 'fatality_rate'])
 province_data_EU = province_data_EU.sort_values(by='country_name', ascending=True)
-#Plotly figure
-fig = go.Figure()
-# Toevoegen van Bar traces voor de comfirmed cases en deaths for elke land
-for country in province_data_EU['country_name'].unique():
-    province_data_EU_filtered = province_data_EU[province_data_EU['country_name'] == country]
-    fig.add_trace(go.Bar(x=province_data_EU_filtered['province'],
-                        y=province_data_EU_filtered['confirmed'],
-                        name=f'{country} gediagnosticeerde',
-                        visible=False,
-                        marker_color='blue'))
-    fig.add_trace(go.Bar(x=province_data_EU_filtered['province'],
-                        y=province_data_EU_filtered['deaths'],
-                        name=f'{country} sterfgevallen',
-                        visible=False,
-                        marker_color='red'))
-#Dit maakt het eerste land zijn data visible by defeault
-fig.data[0].visible=True
-fig.data[1].visible=True
-# Dropdown menu voor kiezen van verschillende landen
-dropdown_buttons = []
+elected_country = st.selectbox('Selecteer een land', covid_df_EU['country_name'].unique())
 
-for country in province_data_EU['country_name'].unique():
-    dropdown_buttons.append({
-        'label':country,
-        'method':'update',
-        'args':[{'visible': [name.startswith(country) for name in [trace.name for trace in fig.data]]},
-        {'title':f'COVID-19 Gegevens voor {country}'}]
-    })
-# Update layout voor het plotly figuur, met een dropdown en titles
-fig.update_layout(
-    title = 'COVID-19 Gediagnosticeerde en Sterfgevallen per Provincie',
-    xaxis_title = 'Provincie',
-    yaxis_title = 'Aantal',
-    barmode = 'group',
-    updatemenus = [{'buttons':dropdown_buttons,
-                    'showactive':True,
-                    'direction':'down'}]
-)
-#weergeven van plot in streamlit
-st.plotly_chart(fig)
+# Filter data for the selected country
+country_data = covid_df_EU[covid_df_EU['country_name'] == selected_country]
+provinces = country_data['province'].unique()
+
+# Multiselect for selecting multiple provinces to display, default to no selection
+selected_provinces = st.multiselect('Selecteer provincies om te tonen', provinces, default=[])
+
+# Filter the data to include only selected provinces
+filtered_data = country_data[country_data['province'].isin(selected_provinces)]
+
+# Check if any provinces are selected
+if not selected_provinces:
+    st.write("Selecteer ten minste één provincie om de gegevens te bekijken.")
+else:
+    # Plotly figure
+    fig = go.Figure()
+
+    # Add bar traces for confirmed cases and deaths for each selected province
+    fig.add_trace(go.Bar(
+        x=filtered_data['province'],
+        y=filtered_data['confirmed'],
+        name='Gediagnosticeerde gevallen',
+        marker_color='blue'
+    ))
+    fig.add_trace(go.Bar(
+        x=filtered_data['province'],
+        y=filtered_data['deaths'],
+        name='Sterfgevallen',
+        marker_color='red'
+    ))
+
+    # Update layout for improved readability
+    fig.update_layout(
+        title=f'COVID-19 Gediagnosticeerde Gevallen en Sterfgevallen per Provincie in {selected_country}',
+        xaxis_title='Provincie',
+        yaxis_title='Aantal',
+        barmode='group',
+        xaxis_tickangle=-45,
+        template='plotly_dark',  # Optional: use dark mode for better contrast
+        legend_title_text='Categorie',
+        title_x=0.5
+    )
+
+    # Display the chart in Streamlit
+    st.plotly_chart(fig)
+
+    # Display percentage difference only if exactly two provinces are selected
+    if len(selected_provinces) == 2:
+        confirmed_cases = filtered_data.groupby('province')['confirmed'].sum()
+        death_cases = filtered_data.groupby('province')['deaths'].sum()
+        
+        # Sort provinces by cases for comparison
+        province1, province2 = confirmed_cases.index[:2]
+        confirmed1, confirmed2 = confirmed_cases[province1], confirmed_cases[province2]
+        deaths1, deaths2 = death_cases[province1], death_cases[province2]
+
+        # Calculate percentage difference for confirmed cases
+        if confirmed2 > 0:
+            confirmed_difference = ((confirmed1 - confirmed2) / confirmed2) * 100
+            if confirmed_difference > 0:
+                st.write(f"{province1} heeft {confirmed_difference:.2f}% meer gediagnosticeerde gevallen dan {province2}.")
+            else:
+                st.write(f"{province1} heeft {abs(confirmed_difference):.2f}% minder gediagnosticeerde gevallen dan {province2}.")
+        else:
+            st.write(f"{province1} heeft aanzienlijk meer gediagnosticeerde gevallen dan {province2}, aangezien {province2} geen gevallen heeft gerapporteerd.")
+
+        # Calculate percentage difference for deaths
+        if deaths2 > 0:
+            death_difference = ((deaths1 - deaths2) / deaths2) * 100
+            if death_difference > 0:
+                st.write(f"{province1} heeft {death_difference:.2f}% meer sterfgevallen dan {province2}.")
+            else:
+                st.write(f"{province1} heeft {abs(death_difference):.2f}% minder sterfgevallen dan {province2}.")
+        else:
+            st.write(f"{province1} heeft aanzienlijk meer sterfgevallen dan {province2}, aangezien {province2} geen sterfgevallen heeft gerapporteerd.")
+    elif len(selected_provinces) != 2:
+        st.write("Selecteer precies twee provincies om het percentageverschil te berekenen.")
 
 # =================================================================================================================================== #
 #Doormiddel van streamlit schrijven we headers en een stuk tekst
